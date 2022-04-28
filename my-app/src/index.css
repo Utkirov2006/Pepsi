@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+  background-position: 5%;
+}
+
+.logo {
+  background-image: url(./images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: -5.3rem;
+  top: 1rem;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  height: 110px;
+  color: white;
+  align-items: center;
+  position: absolute;
+  left: 9.5rem;
+}
+
+.navbar li {
+  margin-right: -30px;
+}
+
+.navbar li {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+  right: -30%;
+  height: 11px;
+  width: 150px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.btn1 {
+  width: 180px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #388BDA;
+  border: none;
+  position: relative;
+  left: 28rem;
+  box-shadow: 0px 0px 5px 10px #457694;
+  border: 1px solid #5989B0;
+}
+
+.btn2 {
+  width: 90px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #388BDA;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  left: 29.5rem;
+  box-shadow: 0px 0px 5px 10px #457694;
+
+}
+
+.main-content {
+  width: 100%;
+  height: 390px;
+  color: white;
+  position: absolute;
+  top: 13rem;
+  background-image: url(./images/pepsi.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 480px;
+  background-position: 63%;
+}
+
+.main-content h1 {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+
+.main-content h3 {
+  font-size: 20px;
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+}
+
+.main-content .btn3 {
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  font-size: 20px;
+  top: 19rem;
+  left: 11rem;
+}
